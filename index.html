@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta nem="viewport" content="width=device-width, intial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>c4k3ss's TSC</title>
+    <head>
+      <link rel="stylesheet" href="fancy.css">
+    </head>
+    <body id = "body" style="background-color:#2d3449">
+      <darkmode style="font-size: 20px" class = "darkmode">Dark Mode:</darkmode>
+      <button class="darkmode" id="darkmode" type="button" onClick="darkmode()">On</button>
+      <div class="center">
+        <titlepage style="font-size:50px">c4k3ss's Temperature scale converter</titlepage><br>
+        <subtitle style="font-size: 30px">Now in JavaScript!</subtitle><br><br>
+        <label style="font-size: 25px">Enter the value you want to convert</label>
+        <br>
+        <input id="orgval" type="text"><br>
+        <text style="font-size: 25px">Enter the original temperature scale</text><br>
+        <select id = "temp1" onChange= "Change1()">   
+          <option> Fahrenheit </option>  
+          <option> Celsius </option>  
+          <option> Kelvin </option>  
+          <option> Rankine </option>  
+          </select>  
+          <br>
+          <text style="font-size: 25px">Enter the second temperature scale</text><br>
+          <select id = "temp2" onChange= "Change2()">   
+            <option> Fahrenheit </option>  
+            <option> Celsius </option>  
+            <option> Kelvin </option>  
+            <option> Rankine </option>  
+            </select><br><br>
+            <button class="saveval" type="button" onClick="save()">Calculate</button>
+            <p></p>
+            <calc style="font-size: 25px">Your value is: </calc>
+            <p id="demo" style="font-size: 25px"></p>
+          </div>
+          <thankyou class="thankyou" style="font-size: 25px">Thanks Sjoerd</thankyou>
+    <script src="code.js">
+
+       </script>
+    </body>
+    </html>

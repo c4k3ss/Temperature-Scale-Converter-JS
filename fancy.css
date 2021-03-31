@@ -1,0 +1,24 @@
+.center {
+  font-family: Comic Sans,Comic Sans MS,cursive;
+    text-align: center;
+    font-weight: bolder;
+      text-shadow:
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+       -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+  }
+  .darkmode {
+    font-family: Comic Sans,Comic Sans MS,cursive;
+    font-weight: bolder;
+      text-shadow:
+      -1px -1px 0 #fff,  
+       1px -1px 0 #fff,
+       -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+  }
+  .thankyou {
+    font-family: Comic Sans,Comic Sans MS,cursive;
+  position: absolute;
+  bottom: 0px;
+  }
